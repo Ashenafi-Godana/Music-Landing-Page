@@ -148,3 +148,20 @@ body {
     font-size: 12px;
     text-align: right;
 }
+
+/* Media Query */
+
+@media screen and (min-width: 745px) {
+    #video {
+        width: 200px;
+        height: 101px;
+        margin: 0 auto;
+    }
+
+    #instrument-types {
+        display: flex;
+        justify-content: right;
+        gap: 20px;
+        margin: 40px 10px;
+    }
+}
