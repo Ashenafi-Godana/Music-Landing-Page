@@ -84,8 +84,64 @@ body {
     font-size: 13px;
 }
 
-.video-container {
-    width: 600px;
-    height: ;
+/* style for the video */
+#video {
+    width: 500px;
+    height: 281px;
     margin: 0 auto;
+}
+
+#instrument-types {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 10px;
+}
+
+.inst-container {
+    border: 1px solid black;
+    width: 230px;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+#instrument-types h4 {
+    font-size: 12px;
+    background-color: lightgray;
+    margin-top: 0;
+    padding: 10px 0;
+}
+
+#instrument-types .price {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#instrument-types button {
+    background-color: #f1c40f;
+    text-transform: uppercase;
+    border: none;
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+}
+
+#footer {
+    background-color: lightgrey;
+    width: 710px;
+    margin: 0 auto;
+    padding: 5px 15px;
+}
+
+#footer #privacy-terms-contact {
+    display: flex;
+    font-size: 14px;
+    justify-content: right;
+    gap: 8px;
+}
+
+#footer #copyright {
+    font-size: 12px;
+    text-align: right;
 }
