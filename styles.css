@@ -1,0 +1,91 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #eee;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 18px;
+    font-size: 13px;
+    display: sticky;
+    top: 0;
+}
+
+#header #header-img {
+    width: 230px;
+}
+
+#header #nav-bar {
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+#form {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#form h2 {
+    font-size: 20px;
+}
+
+#form input[type="email"] {
+    font-family: inherit;
+    font-size: 11px;
+    width: 220px;
+    padding: 2px 5px;
+    margin: 5px 0;
+}
+
+#form input[type="submit"] {
+    display: block;
+    margin: 10px auto;
+    text-transform: uppercase;
+    background-color: #F1C40F;
+    font-weight: 900;
+    border: none;
+    padding: 4px 10px;
+}
+
+#features * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#features {
+    width: 60%;
+    margin: 60px auto;
+}
+
+#features .icon {
+    color: darkorange;
+    margin: 30px 0;
+}
+
+#features .icon i {
+    font-size: 36px;
+}
+
+#features .description {
+    margin: 20px 0;
+}
+
+#features #premium {
+    gap: 65px;
+}
+
+#features .feature-flex {
+    display: flex;
+    gap: 50px;
+    vertical-align: middle;
+    font-size: 13px;
+}
+
+.video-container {
+    width: 600px;
+    height: ;
+    margin: 0 auto;
+}
